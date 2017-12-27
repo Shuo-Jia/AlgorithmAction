@@ -1,6 +1,6 @@
 package SwordOffer;
 
-public class Sorting_of_two_dimensional_array {
+public class N1_Sorting_of_twodimensionalArray {
   /**
    * 在一个二维数组中，每一行都按照从左到右递增的顺
    * 序排序，每一列都按照从上到下递增的顺序排序。请

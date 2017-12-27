@@ -13,7 +13,7 @@ class ListNode {
 
 }
 
-public class PrintList_From_TailToHead {
+public class N3_PrintList_From_TailToHead {
   /**
    * 输入一个链表，从尾到头打印链表每个节点的值
    */
@@ -44,6 +44,6 @@ public class PrintList_From_TailToHead {
     listNode.next.next = new ListNode(2);
     listNode.next.next.next = new ListNode(3);
     listNode.next.next.next.next = new ListNode(4);
-    new PrintList_From_TailToHead().printListFromTailToHead(listNode);
+    new N3_PrintList_From_TailToHead().printListFromTailToHead(listNode);
   }
 }
