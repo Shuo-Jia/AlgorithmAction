@@ -2,7 +2,7 @@ package SwordOffer;
 
 import java.util.Stack;
 
-public class N21_IsPopOrder {
+public class N21$_IsPopOrder {
   /**
    * 输入两个整数序列，第一个序列表示栈的压入顺序，
    * 请判断第二个序列是否为该栈的弹出顺序。假设压
@@ -53,6 +53,6 @@ public class N21_IsPopOrder {
     boolean flag;
     int[] inStack = new int[]{1, 2, 3, 4, 5};
     int[] outStack = new int[]{4, 5, 3, 2, 1};
-    flag = new N21_IsPopOrder().IsPopOrder(inStack, outStack);
+    flag = new N21$_IsPopOrder().IsPopOrder(inStack, outStack);
   }
 }

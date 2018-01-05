@@ -19,7 +19,7 @@ class TreeNode {
  * 叉树并返回。
  */
 
-public class N4_ReConstruct_BinaryTree {
+public class N4$_ReConstruct_BinaryTree {
   public TreeNode reConstructBinaryTree(int[] pre, int[] in) {
     return rebuildTree(pre, in, 0, pre.length-1, 0, in.length-1);
   }
@@ -59,6 +59,6 @@ public class N4_ReConstruct_BinaryTree {
   public static void main(String[] args){
     int[] pre = new int[]{1,2,4,7,3,5,6,8};
     int[] in = new int[]{4,7,2,1,5,3,8,6};
-    new N4_ReConstruct_BinaryTree().reConstructBinaryTree(pre, in);
+    new N4$_ReConstruct_BinaryTree().reConstructBinaryTree(pre, in);
   }
 }

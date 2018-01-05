@@ -1,6 +1,6 @@
 package SwordOffer;
 
-public class N17_HasSubtree {
+public class N17$_HasSubtree {
   /**
    * 输入两棵二叉树A，B，判断B是不是A的子结构。
    * （ps：我们约定空树不是任意一个树的子结构）
@@ -58,6 +58,6 @@ public class N17_HasSubtree {
     root2.left = new TreeNode(3);
     root2.right = new TreeNode(8);
 
-    flag = new N17_HasSubtree().HasSubtree(root1, root2);
+    flag = new N17$_HasSubtree().HasSubtree(root1, root2);
   }
 }
