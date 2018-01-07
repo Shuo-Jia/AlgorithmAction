@@ -19,7 +19,7 @@ public class N17$_HasSubtree {
         result = HasSubtree(root1.left, root2);//先左节点遍历
       }
       if (!result) {
-        result = HasSubtree(root1.right, root2);//然后又节点遍历
+        result = HasSubtree(root1.right, root2);//然后右节点遍历
       }
     }
     return result;
