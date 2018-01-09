@@ -1,6 +1,6 @@
 package SwordOffer;
 
-public class N23_VerifySquence_Of_BST {
+public class N23$_VerifySquence_Of_BST {
   /**
    * 输入一个整数数组，判断该数组是不是某二叉搜索树的
    * 后序遍历的结果。如果是则输出Yes,否则输出No。假设
@@ -53,6 +53,6 @@ public class N23_VerifySquence_Of_BST {
     int[] sequence3 = new int[]{11, 10, 8};//右子树
     int[] sequence4 = new int[]{4, 5, 7, 6, 9, 12, 11, 10, 8};//全子树
     int[] sequence5 = new int[]{7, 4, 6, 5};
-    flag = new N23_VerifySquence_Of_BST().VerifySquenceOfBST(sequence4);
+    flag = new N23$_VerifySquence_Of_BST().VerifySquenceOfBST(sequence4);
   }
 }
